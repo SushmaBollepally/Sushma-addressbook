@@ -1,0 +1,27 @@
+{
+    "data" :  [
+    {
+      
+      "id": 1,
+      "name": "ravi",
+      "phone": "6124907490",
+      "email": "ravi@gmail.com"
+    },
+    {
+     
+      "id": 2,
+      "name": "sushma",
+      "phone": "999999999",
+      "email": "sushma@gmail.com"
+    },
+    {
+    
+      "id": 3,
+      "name": "freeee",
+      "phone": "999999999",
+      "email": "hhhgt@gmail.com"
+    }
+
+
+  ]
+}

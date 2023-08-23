@@ -1,0 +1,74 @@
+<!--<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Angular</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro Page</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<style>
+		body {
+		font-family: Arial, sans-serif;
+		background-color: #f2f2f2;
+  		}
+		form {
+		background-color: #fff;
+		padding: 20px;
+		max-width: 500px;
+		margin: 0 auto;
+		border-radius: 5px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		input[type="submit"] {
+		background-color: #4CAF50;
+		color: #fff;
+		padding: 12px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		}
+		input[type="button"] {
+		background-color: #4CAF50;
+		color: #fff;
+		padding: 12px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	
+	
+	<form action="http://127.0.0.1:5000/upload">
+		<h1>Welcome to Address Book!</h1>
+		<p>Please choose one of the following options:</p>
+		<input type="submit" value="Upload" />
+		
+	<input type="button" value= "retrieve all records" class="button_active" onclick= "location.href='http://127.0.0.1:5000/contacts';" />
+	
+	
+
+	<script type="text/javascript">
+		function redirectToPage1() {
+			document.location.href = "upload.html";
+		}
+
+		function redirectToPage2() {
+			document.location.href = "retrieve.html";
+		}
+	</script>
+</body>
+</html>
+
